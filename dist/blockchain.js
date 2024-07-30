@@ -4,7 +4,7 @@ exports.getTokenInfo = getTokenInfo;
 exports.setupBlockchainListeners = setupBlockchainListeners;
 const viem_1 = require("viem");
 const chains_1 = require("viem/chains");
-const CONTRACT_ADDRESS = '0x6Cb47Ef9b8482c3303C25F1164DCE03d2d2bd9A1';
+const CONTRACT_ADDRESS = '0x97b962Ab399beBF439a4a303d9754e79d6925EDa';
 const ABI = (0, viem_1.parseAbi)([
     'event TokenCreated(address indexed tokenAddress, address indexed creator, string name, string symbol)',
     'event TokensBought(address indexed token, address indexed buyer, uint256 ethAmount, uint256 tokenAmount)',
